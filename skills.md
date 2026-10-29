@@ -13,7 +13,11 @@ title: "Skills & Certifications"
 - **Practices**: FinOps, Production Readiness Reviews, DR planning, coaching and enablement
 
 ## Certifications
-- Google Cloud Deploy Agentspace Generative AI Leader
+- **Generative AI Leader**, Google (issued Sep 2025, expires Sep 2028)
+- **AWS Certified DevOps Engineer – Professional**, Amazon Web Services (AWS)
+- **GitHub Copilot**, Microsoft
+- **FinOps Certified Engineer**, The Linux Foundation
+- **GitOps at Scale**, Codefresh
 
 ## Awards
 - One Equifax Team Award, Q3 2023: Migration 2.0
