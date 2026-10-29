@@ -1,0 +1,7 @@
+# Replace these placeholders with your real sites.
+- name: "Site name"
+  url: "https://example.com"
+  description: "One-line description"
+- name: "Another site"
+  url: "https://example.org"
+  description: "One-line description"

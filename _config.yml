@@ -1,6 +1,3 @@
-remote_theme: mmistakes/minimal-mistakes@4.26.2
-minimal_mistakes_skin: "default"
-
 title: "Seshadri Reddy Kommepalli"
 name: "Seshadri Reddy Kommepalli"
 description: "Enterprise Multi-Cloud Infra Architect | SRE Leader | FinOps | AIOps | AI SRE Agent"
@@ -10,39 +7,19 @@ locale: "en-US"
 
 author:
   name: "Seshadri Reddy Kommepalli"
-  # avatar: "/assets/images/profile.jpg"   # uncomment after adding your photo
-  bio: "Enterprise Multi-Cloud Infra Architect | SRE Leader | FinOps | AIOps | AI SRE Agent"
+  avatar: ""   # e.g. "/assets/images/profile.jpg" after adding your photo
   location: "St. Louis, Missouri"
   links:
     - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/seshadri-reddy-kommepalli-0a194814"
     - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/skommepa"
-
-footer:
-  links:
-    - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/seshadri-reddy-kommepalli-0a194814"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
       url: "https://github.com/skommepa"
 
 plugins:
-  - jekyll-remote-theme
-  - jekyll-include-cache
-  - jekyll-feed
   - jekyll-sitemap
-
-include:
-  - _pages
 
 defaults:
   - scope:
       path: ""
     values:
-      layout: single
-      author_profile: true
-      classes: wide
+      layout: page

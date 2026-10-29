@@ -5,7 +5,8 @@ title: "My Sites"
 
 Other websites I run.
 
-<!-- TODO: replace these placeholders with your real sites -->
-
-- **[Site name](https://example.com)**: one-line description
-- **[Site name](https://example.com)**: one-line description
+<div class="cards">
+{% for s in site.data.sites %}
+  <a class="card" href="{{ s.url }}"><h3>{{ s.name }} ↗</h3><p>{{ s.description }}</p></a>
+{% endfor %}
+</div>

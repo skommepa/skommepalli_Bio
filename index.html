@@ -1,0 +1,75 @@
+---
+layout: default
+permalink: /
+title: "About"
+---
+<section class="hero">
+  <div>
+    {% if site.author.avatar != "" %}
+    <img class="avatar" src="{{ site.author.avatar | relative_url }}" alt="{{ site.name }}">
+    {% else %}
+    <div class="avatar" aria-hidden="true">SK</div>
+    {% endif %}
+    <span class="eyebrow"><span class="dot"></span> St. Louis, Missouri</span>
+    <h1>Hi, I'm <span class="grad">Seshadri</span>.<br>I keep multi-cloud systems reliable.</h1>
+    <p class="lead">Enterprise multi-cloud infra architect and SRE leader. I work on reliability, platform engineering, FinOps and AI agents that cut operational toil across GCP and AWS.</p>
+    <div class="btns">
+      <a class="btn primary" href="{{ '/experience/' | relative_url }}">View experience</a>
+      <a class="btn" href="{{ '/projects/' | relative_url }}">See projects</a>
+      <a class="btn" href="https://www.linkedin.com/in/seshadri-reddy-kommepalli-0a194814">LinkedIn ↗</a>
+    </div>
+  </div>
+
+  <div class="term" aria-hidden="true">
+    <div class="term-bar"><i></i><i></i><i></i></div>
+    <div class="term-body">
+      <span class="p">$</span> whoami
+      <span class="o">seshadri: Lead SRE @ Equifax</span>
+      <span class="p">$</span> stack --list
+      <span class="o">GCP · AWS · GKE · EKS · Terraform · Argo CD</span>
+      <span class="p">$</span> focus
+      <span class="o">SLOs · FinOps · AIOps · AI SRE agents</span>
+      <span class="p">$</span> status
+      <span class="o">building things that page me less</span>
+    </div>
+  </div>
+</section>
+
+<section class="stats">
+  <div class="stat"><b>20+</b><span>years in infrastructure</span></div>
+  <div class="stat"><b>2</b><span>clouds: GCP and AWS</span></div>
+  <div class="stat"><b>6 wks</b><span>OpenAPI rollout to launch</span></div>
+  <div class="stat"><b>5</b><span>One Equifax awards</span></div>
+</section>
+
+<section class="section">
+  <h2>What I do</h2>
+  <p class="sub">Four areas I spend most of my time in.</p>
+  <div class="cards">
+    <div class="card"><span class="ico">📈</span><h3>Reliability</h3><p>SLO/SLA/MTTR frameworks, observability, Production Readiness Reviews and DR exercises.</p></div>
+    <div class="card"><span class="ico">☁️</span><h3>Platform engineering</h3><p>GKE and EKS, Terraform, GitOps with Argo CD, and CI/CD pipelines with GitHub Actions.</p></div>
+    <div class="card"><span class="ico">💸</span><h3>FinOps</h3><p>Unit economics, automated cleanup of stale resources, and cost-conscious architecture.</p></div>
+    <div class="card"><span class="ico">🤖</span><h3>AI for SRE</h3><p>Agents built with Google ADK that automate infrastructure upgrades and operational workflows.</p></div>
+  </div>
+</section>
+
+<section class="section">
+  <h2>Toolbox</h2>
+  <p class="sub">What I reach for most.</p>
+  <div class="tags">
+    <span class="tag">Terraform</span><span class="tag">Argo CD</span><span class="tag">GitOps</span>
+    <span class="tag">GKE</span><span class="tag">EKS</span><span class="tag">GitHub Actions</span>
+    <span class="tag">Ansible</span><span class="tag">Python</span><span class="tag">Cloud Composer</span>
+    <span class="tag">CloudWatch</span><span class="tag">Google ADK</span><span class="tag">FinOps</span>
+  </div>
+</section>
+
+<section class="section">
+  <h2>Explore</h2>
+  <div class="cards">
+    <a class="card" href="{{ '/experience/' | relative_url }}"><h3>Experience →</h3><p>From software engineer in 2005 to Lead SRE.</p></a>
+    <a class="card" href="{{ '/projects/' | relative_url }}"><h3>Projects →</h3><p>Agents, FinOps, CI/CD and reliability work.</p></a>
+    <a class="card" href="{{ '/skills/' | relative_url }}"><h3>Skills & Certs →</h3><p>Skills, certification and awards.</p></a>
+    <a class="card" href="{{ '/sites/' | relative_url }}"><h3>My Sites →</h3><p>Other sites I run.</p></a>
+  </div>
+</section>
