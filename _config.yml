@@ -7,7 +7,7 @@ locale: "en-US"
 
 author:
   name: "Seshadri Reddy Kommepalli"
-  avatar: ""   # e.g. "/assets/images/profile.jpg" after adding your photo
+  avatar: "/assets/images/profile.jpg"
   location: "St. Louis, Missouri"
   links:
     - label: "LinkedIn"
